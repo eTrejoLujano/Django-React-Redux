@@ -1,9 +1,9 @@
 import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import getListProjects from "../actions/projectActions";
 import { Link } from "react-router-dom";
 import { Col, Card, Container, Row } from "react-bootstrap";
+import { getListProjects } from "../actions/projectActions";
 
 const ProjectLists = () => {
   const dispatch = useDispatch();
