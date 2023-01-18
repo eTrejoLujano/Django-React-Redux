@@ -46,16 +46,17 @@ const ProjectLists = () => {
                       Demo
                     </a>
 
-                    {/* <Link
+                    <Link
                       style={{
                         textDecoration: "none",
                         marginLeft: "2px",
                         marginRight: "2px",
                       }}
                       className="m-2 pd-2 btn btn-success"
+                      to={"/detail-project/" + project.id}
                     >
                       View
-                    </Link> */}
+                    </Link>
                   </span>
                 </Card.Body>
               </Card>
